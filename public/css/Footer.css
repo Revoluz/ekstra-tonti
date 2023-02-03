@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+body footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /* font: inherit; */
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+p {
+    font-family: "Roboto Slab";
+    font-size: 16px;
+}
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 128px;
+}
+/* footer */
+body footer {
+    margin-top: 20px;
+    background-color: #540000;
+    padding-top: 100px;
+}
+footer .container .row .smk h4 {
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+footer .container .row .smk hr {
+    margin-top: 5px;
+    border: 0.5px solid #ffda1f;
+}
+footer .container .row .social-media li {
+    display: inline-block;
+}
+footer .container .row .social-media li a:hover {
+    background-color: #fff;
+}
+footer .container .row .social-media li a i {
+    font-size: 100%;
+    padding: 12.5px;
+    border-radius: 50%;
+}
+footer .container .row .social-media li a i:hover {
+    color: #540000;
+    background-color: #fff;
+}
+footer .container .row .social-media li a {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fefefe;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 39px;
+    margin-right: 5px;
+    text-align: center;
+    width: 40px;
+    font-weight: 500;
+}
+footer .container .row .ct h4 {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+}
+footer .container .row .contact {
+    margin-top: 18px;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #ffffff;
+}
+footer .container .row .contact p {
+    display: flex;
+    align-items: center;
+}
+footer .container .row .ct .contact li {
+    display: flex;
+    margin-bottom: 15px;
+}
+footer .container .row .ct .contact li i {
+    margin: 5px;
+    margin-left: 0px;
+    font-size: 16px;
+}
+footer .container .row .jadwal h4 {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px;
+    color: #ffffff;
+}
+footer .container .row .jadwal-jam {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 18px;
+    color: #ffffff;
+}
+footer .container .row .location h4 {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+footer .container .row h4 {
+    margin-top: 20px;
+}
+.copy-right {
+    background-color: #161a1d;
+    margin-top: 20px;
+    height: 45px;
+}
+.copy-right .container-fluid.d-flex {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+}
+.copy-right .container-fluid.d-flex p {
+    font-size: 12px;
+}
+.copy-right .container-fluid.d-flex .d-flex {
+    height: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.copy-right .container-fluid.d-flex .d-flex .vr {
+    width: 2px;
+    color: #fff;
+}
+.copy-right .container-fluid .red {
+    color: #d93026;
+}
